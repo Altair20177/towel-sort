@@ -1,10 +1,14 @@
 
 // You should implement your task here.
 
-module.exports = function towelSort (matrix) {
+module.exports = function towelSort (matrix) {    
+
 let duck = -1;
 let count = -1;
 let str1 = [];
+
+if(!matrix.isArray) return str1;
+if(matrix == 0) return str1;
 
 for (let j = 0; j < matrix.length; j++)
 {
