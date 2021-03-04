@@ -8,7 +8,7 @@ let count = -1;
 let str1 = [];
 
 if(!matrix.isArray) return str1;
-if(matrix == 0) return str1;
+if(matrix.length == 0) return str1;
 
 for (let j = 0; j < matrix.length; j++)
 {
